@@ -5,12 +5,12 @@ using System.Web;
 
 namespace OrchidSecure.Models.AccessRights
 {
-    public class AccessRightsModel
+    public class AccessRight
     {
         private int id;
         private string role;
 
-        public AccessRightsModel(int Id, string Role)
+        public AccessRight(int Id, string Role)
         {
             this.id = Id;
             this.role = Role;
